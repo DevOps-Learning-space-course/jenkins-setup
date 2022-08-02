@@ -24,8 +24,8 @@ systemctl start jenkins
 systemctl status jenkins
 
 ============= Install Maven ===========
-mvn clean
-mvn clean test
-mvn clean package
-mvn clean package install
-mvn -Dmaven.test.skip=TRUE install
+<br>mvn clean</br>
+<br>mvn clean test</br>
+<br>mvn clean package</br>
+<br>mvn clean package install</br>
+<br>mvn -Dmaven.test.skip=TRUE install</br>
