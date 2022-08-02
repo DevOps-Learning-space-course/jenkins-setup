@@ -1,27 +1,27 @@
 # jenkins-setup
-============= Install Java  ===========
-apt install default-jre
-apt install default-jdk
+<br>============= Install Java  ===========</br>
+<br>apt install default-jre<br>
+<br>apt install default-jdk<br>
 
-============= Install Maven ===========
+<br>============= Install Maven ===========</br>
 apt install maven
 
-============= Install Git==============
-apt-get install git
+<br>============= Install Git==============</br>
+<br>apt-get install git<br>
 
-============= Install Jenkins =========
+<br>============= Install Jenkins =========</br>
 
-wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+<br>wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -</br>
 
-sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+<br>sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'</br>
 
-apt-get update
+<br>apt-get update</br>
 
-apt install jenkins
+<br>apt install jenkins</br>
 
-systemctl start jenkins
+<br>systemctl start jenkins</br>
 
-systemctl status jenkins
+<br>systemctl status jenkins</br>
 
 ============= Install Maven ===========
 <br>mvn clean</br>
